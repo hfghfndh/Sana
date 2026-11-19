@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "sansmod",
+  "version": "${version}",
+  "name": "Sans Mod",
+  "description": "Client-side Sans-inspired combat and effects mod.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.sansmod.SansMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
